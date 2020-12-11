@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState} from 'react';
-import WetherResults from './WeatherResults'
+import WeatherResults from './WeatherResults'
 import axios from 'axios';
+
 
 function Weather () {
     const [zip, setZip] = useState('');
@@ -19,7 +20,8 @@ function Weather () {
         <div>
             <form onSubmit={handleSubmit}>
                 <h1>Find weather in your area in the United States</h1>
-                <lavbe htmlFor="zip">zipCode</lavbe>
+                {weather ? <WeatherResults weather={weather} /> :null }
+                <label htmlFor="zip">zipCode</label>
                 <input type="text" name="zip" id="zip" onChange={(e => setZip(e.target.value))} />
                 <input type="submit" value="findWeather" /> 
             </form>

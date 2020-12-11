@@ -11,6 +11,7 @@ import Resume from './Components/Resume';
 import Git from './Components/Git'
 import Works from './Components/Works'
 import Weather from './Components/Weather'
+import GitHub from './Components/GitHub';
 const work= [
 {
   id:1,
@@ -37,6 +38,7 @@ function App() {
   <Route path="/Contact" component={Contact} />
   <Route path="/Resume" component={Resume} />
   <Route path="/Weather" component={Weather} />
+  <Route path="/GitHub" component={GitHub} />
 
   <Route path="/Git" render={()=>{return <Git proceduresList={work} /> }} />
   <Route path="/Works/:id" render={(routeInfo)=>{
