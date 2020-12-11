@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import React from 'react';
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 import axios from 'axios';
@@ -9,6 +10,7 @@ import Contact from './Components/Contact';
 import Resume from './Components/Resume';
 import Git from './Components/Git'
 import Works from './Components/Works'
+import Weather from './Components/Weather'
 const work= [
 {
   id:1,
@@ -34,6 +36,7 @@ function App() {
   <Route path="/" exact component={Info} />
   <Route path="/Contact" component={Contact} />
   <Route path="/Resume" component={Resume} />
+  <Route path="/Weather" component={Weather} />
 
   <Route path="/Git" render={()=>{return <Git proceduresList={work} /> }} />
   <Route path="/Works/:id" render={(routeInfo)=>{

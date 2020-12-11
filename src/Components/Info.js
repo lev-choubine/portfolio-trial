@@ -1,7 +1,7 @@
 function Info() {
     return (
       <div className="App">
-       <h1>一番のデベロパーございます</h1>
+       <h1>一番のデベロパーです</h1>
       </div>
     )
   }
