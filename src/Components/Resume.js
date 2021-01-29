@@ -3,13 +3,9 @@
 
 function Resume() {
     return (
-      <div className="App">
-
-<p>Lev Choubinep<br/>Fullstack Software Developer<br/>
-lev.choubine@gmail.com<br/>
-New York, New York<br/>
-917-294-6400<br/>
-——————————————————<br/>
+      <div id='res'>
+     
+<p>
 
 Brand Statement:<br/>
 
