@@ -2,7 +2,7 @@ import { useState } from 'react';
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
-import axios from 'axios';
+
 import Photo from './Components/Photo';
 import Info from './Components/Info';
 import Nav from './Components/Nav';
