@@ -5,7 +5,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import Photo from './Components/Photo';
 import Info from './Components/Info';
-import Nav from './Components/Nav';
+
 import Contact from './Components/Contact';
 import Resume from './Components/Resume';
 import Git from './Components/Git'

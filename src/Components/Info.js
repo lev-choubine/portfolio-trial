@@ -1,4 +1,4 @@
-import Contact from "./Contact"
+
 
 function Info() {
     return (
