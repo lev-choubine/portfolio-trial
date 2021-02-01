@@ -10,13 +10,13 @@ function Resume() {
 
 
 
-Skills: <br/>
+<h4>Skills:</h4> 
 
-React, Express, Node, Javascript, EJS, SQL, Sequelize, Mongo, Mongoose, Python, Bootstrap, Reactstrap, Materilize, JSX, CSS, HTML, GItHube, Protools<br/>
+React, Express, Node, Javascript, EJS, SQL, Sequelize, Mongo, Mongoose, Python, Bootstrap,  JSX, CSS, HTML, GitHub<br/>
 
-<br/>
 
-Relevant Experience:<br/> 
+
+<h4>Relevant Experience:</h4>
 
 General Assembly Development Projects:<br/>
 
@@ -24,8 +24,8 @@ Crazy Driver - a collision game that uses spite animation and self-recorded soun
 
 javaScript, CSS, HTML,  Protools<br/>
 
-<br/>
-Experience:<br/><br/> 
+
+<h4>Experience:</h4>
 
 Bar Manger - Major Food Group<br/>
 September 2017 - March 2020<br/>
@@ -34,16 +34,16 @@ Executed bar programs for 2 progressive New York hospitality venues: ‘The Poly
 Assistant Food and Beverage Manager - JRK hotels<br/>
 September 2014 - August 2017<br/>
 Executed payroll, Scheduling and Supervision for a team of 18;<br/><br/>
-<br/>
-Education: <br/>
+
+<h4>Education:</h4>
 General Assembly Full stack Immersive Course.<br/>
 Completed a 12 week training program for software engineering remotely. The course was focussed on full stack development, where we coded front end and back end applications with modern frameworks, libraries and languages.<br/>
-<br/>
-Additional Courses :<br/>
+
+
 
 Codecademy Web Development Career Path<br/>
 10/3/2020<br/>
-Online course on web development. Introduction to React, Express, SQL, Node EJX.</p>
+Online course on web development. Introduction to React.js, Express, SQL, Node.js, EJX.</p>
      
       </div>
     );
