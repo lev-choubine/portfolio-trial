@@ -11,6 +11,8 @@ function Git(props) {
         <h3>{p.name}</h3>
         <h5 class="lingo">{p.info}</h5>
         <h6>{p.speil}</h6>
+        {/* <a>gitHub</a> */}
+        <a  href={p.heroku}><div className="linkstoapps"><img className="gittohabbu" src="https://cdn.icon-icons.com/icons2/2108/PNG/512/heroku_icon_130912.png"/><p>Live Version</p></div></a>
         </div>
         <div className="videoBox">
         <ReactPlayer 

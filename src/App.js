@@ -16,17 +16,21 @@ const work= [
 {
   id:1,
   Name: 'Tab Sensei(click here for GitHub)',
-  link: 'https://github.com/lev-choubine/tab-sensei-frontend',
+  heroku: 'http://tabsensei.herokuapp.com/',
   video:'https://res.cloudinary.com/dok4pz3i3/video/upload/v1610911373/bkzo3hrldtxf16oj8w8g.mp4',
   info: "#React.js, #Express, #MongoDB, #Mongoose, #Node.js, #YoutubeAPI, #SongsterrAPI, #Cloudinary, #Passport",
-  speil:"A search engine application that lets the user pull up guitar tabs and youTube tutorials for desired songs. The user is able to store or delete the preferred tabs, comment on the tabs and delete tabs. The pallication comes with a bank of 6  metronome beats. You can manipulate playback speed in realtime. "
+  speil:"A search engine application that lets the user pull up guitar tabs and youTube tutorials for desired songs. The user is able to store or delete the preferred tabs, comment on the tabs and delete tabs. The pallication comes with a bank of 6  metronome beats. You can manipulate playback speed in realtime. ",
+  gitHubF: "https://github.com/lev-choubine/tab-sensei-frontend-group-project",
+  gitHubB: "https://github.com/lev-choubine/tab-sensei-backend/settings"
 },
 {id:2,
   Name: 'Famished(click here for GirHub)',
-  link: 'https://famished.herokuapp.com/',
+  heroku: 'https://famished.herokuapp.com/',
   video: 'https://res.cloudinary.com/dok4pz3i3/video/upload/v1610911433/xzdvof4wywepqwgoex4u.mp4',
   info: "#EJS, #Express, #SQL, #Sequelize, #Node.js, #GoogleMatrixDistanceAPI, #Cloudinary, #Passport",
-  speil:"A multi-profile search engine that allows users and mobile vendors connect with eachother based on proximity. The apllication filters out user's desired food items, matches them against the offers by sellers and returns options based on est price and proximity! Have fun - you can use '420St Nicholas Ave New York, NY, 10027' as your default addresss if you want to test the lice application out."
+  speil:"A multi-profile search engine that allows users and mobile vendors connect with eachother based on proximity. The apllication filters out user's desired food items, matches them against the offers by sellers and returns options based on est price and proximity! Have fun - you can use '420St Nicholas Ave New York, NY, 10027' as your default addresss if you want to test the lice application out.",
+  gitHubF: "",
+  gitHubB: "",
   
 }
 

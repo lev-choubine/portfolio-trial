@@ -148,6 +148,10 @@ li {
   border-radius: 10px;
 }
 
+.linkstoapps {
+  text-align: center;
+  line-height: 0;
+}
 .video_box{
    background-color: rgba(226, 224, 213, 0.281);
    display: flex;
