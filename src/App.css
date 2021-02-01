@@ -83,7 +83,7 @@ body {
 #pic {
   height:150px;
   border-radius: 100%;
-  
+  border: solid 5px rgba(255, 255, 255, 0.205);
   margin-top:auto;
 }
 
