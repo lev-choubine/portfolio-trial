@@ -12,7 +12,7 @@ function Git(props) {
         <h5 class="lingo">{p.info}</h5>
         <h6>{p.speil}</h6>
         </div>
-        <div>
+        <div className="videoBox">
         <ReactPlayer 
              playing={true}
              controls={true}
@@ -26,7 +26,7 @@ function Git(props) {
              </div>
     })
     return(
-        <div>
+        <div id="projects">
             {procedureItems}
         </div>
     )

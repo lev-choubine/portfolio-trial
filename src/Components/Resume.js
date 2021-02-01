@@ -7,16 +7,14 @@ function Resume() {
      
 <p>
 
-Brand Statement:<br/>
 
-Full stack developer with roots in progressive hospitality of New York City. I like constant change and absorbing new information. Nothing is more satisfying than seeing impossible projects come together and later finding yourself adding final touches to something that left you perplexed at first.<br/>
-____________________________<br/>
+
 
 Skills: <br/>
 
 React, Express, Node, Javascript, EJS, SQL, Sequelize, Mongo, Mongoose, Python, Bootstrap, Reactstrap, Materilize, JSX, CSS, HTML, GItHube, Protools<br/>
 
-————————————————————————<br/>
+<br/>
 
 Relevant Experience:<br/> 
 
@@ -26,7 +24,7 @@ Crazy Driver - a collision game that uses spite animation and self-recorded soun
 
 javaScript, CSS, HTML,  Protools<br/>
 
-———————————————————————————————————<br/>
+<br/>
 Experience:<br/><br/> 
 
 Bar Manger - Major Food Group<br/>
@@ -36,11 +34,11 @@ Executed bar programs for 2 progressive New York hospitality venues: ‘The Poly
 Assistant Food and Beverage Manager - JRK hotels<br/>
 September 2014 - August 2017<br/>
 Executed payroll, Scheduling and Supervision for a team of 18;<br/><br/>
-_____________________________________________________________<br/>
+<br/>
 Education: <br/>
 General Assembly Full stack Immersive Course.<br/>
 Completed a 12 week training program for software engineering remotely. The course was focussed on full stack development, where we coded front end and back end applications with modern frameworks, libraries and languages.<br/>
-—————————————————————<br/>
+<br/>
 Additional Courses :<br/>
 
 Codecademy Web Development Career Path<br/>

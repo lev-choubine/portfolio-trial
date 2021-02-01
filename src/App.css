@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: rgba(250, 235, 215, 0.336);
+  background-color: rgba(252, 252, 252, 0.76);
 }
 
 .App {
@@ -10,29 +12,74 @@ body {
 }
 
 .brandStatement {
-  flex: 33%;
+  flex: 25%;
   margin: 20px;
-  background-color: rgba(189, 185, 185, 0.733);
+  background-color: rgba(189, 185, 185, 0.384);
   padding: 10px;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 23px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: rgb(49, 47, 47);
+
 }
 
 #contacto {
-  flex: 33%;
+
+  /* background-color: aquamarine; */
+
+  font-size: 16px;
+  line-height: 0;
+  align-self: center; 
+}
+
+#fixedHeader {
+  background-image: url('https://res.cloudinary.com/dok4pz3i3/image/upload/v1612209697/zfpjytu4kaamqsfak9vp.jpg');
+  object-fit: cover;
+  background-position:bottom;
+  background-size: cover;
+  border-bottom: 3px solid black;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+#header {
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(247, 247, 247, 0.897);
+  /* opacity: 0.9; */
+  z-index: -2;
+  -webkit-backdrop-filter: grayscale();
+
+}
+
+
+#contactBox{
+  display: flex;
+  /* background-color: lavender; */
+  justify-content: space-between;
+}
+
+.gittohabbu {
+  height:40px;
+  align-self: baseline;
 }
 
 #pic {
   height:150px;
   border-radius: 100%;
-   
+  
   margin-top:auto;
 }
 
 #midHeader{
   /* background-color: chocolate; */
-  width: 250px;
-  flex: 33%;
+  /* width: 250px; */
+  flex: 50%;
+  padding: auto;
 }
 #res{
   width: 45%;
@@ -43,23 +90,33 @@ body {
 
 }
 
+#photoBox {
+  display: flex;
+  justify-content: space-between;
+}
+
 #links {
  
-  display: flex;
-  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  /* text-align: center; */
+  flex: 100%;
+  display:flex;
+  list-style-type: none;
+  
   margin: auto;
-  justify-content: space-between;
-  /* background-color: brown; */
-  width: 180px;
-  margin-top: 0px;
-
+  justify-content: space-evenly;
+  /* background-color: rgb(75, 47, 107); */
  
-
+  /* background-color: brown; */
+  /* width: 180px; */
 }
+
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -67,9 +124,7 @@ body {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-ul {
-  list-style-type: none;
-}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -82,6 +137,12 @@ ul {
   padding-top: 40px;
 }
 
+li {
+  flex: 33%;
+  margin: auto;
+}
+
+
 .App-link {
   color: #bbbcbd50;
   border-radius: 10px;
@@ -93,22 +154,43 @@ ul {
    justify-content: space-around;
    width:90%;
    margin: auto;
+   -webkit-margin-collapse: auto;
    border-radius: 10px;
 }
+
+#res{
+  width:90%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+
 
 .game_info {
   width: 500px;
   background-color: rgba(182, 182, 172, 0.322);
   border-radius: 10px;
-  margin:10px;
+  margin-top:60px;
+  margin-left: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
 }
 
 .navLink{
-  
+  /* background-color: rgb(207, 207, 207); */
+  margin: auto;
+  font-weight: 900;
+  color:grey;
+  }
+
+Link {
+  color: black;
 }
 
 .lingo{
-background-color: rgba(240, 255, 255, 0.568);
+background-color: rgba(240, 255, 255, 0.363);
 height: 60px;
 border-radius: 10px;
 padding-top: 10px;
@@ -117,15 +199,22 @@ margin: auto;
 
 }
 
-#header {
-  text-align: center;
-  position: relative;
+ul {
+  list-style-type: none;
+}
+
+
+
+
+#midHeader {
+  /* background-color: darkgoldenrod; */
+  padding: 30px 30px 0px 30px;
+}
+
+Nav{
+  /* background-color: darkturquoise; */
   display: flex;
-  justify-content: space-around;
-
-  border-bottom: 3px solid black;
-  /* background-color: darkgreen; */
-
+  justify-content: space-evenly;
 }
 
 
@@ -137,3 +226,17 @@ margin: auto;
     transform: rotate(360deg);
   }
 }
+
+#below {
+  overflow-y: scroll;
+  /* background-color: lawngreen; */
+  position: static;
+  max-height: 550px;
+  z-index: -2;
+}
+
+.videoBox {
+  margin-top: 60px;
+}
+
+
