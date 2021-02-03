@@ -26,7 +26,7 @@ const work= [
   },
   {id:2,
     Name: 'Crazy Driver(click here for GirHub)',
-    heroku: 'https://token-dates.herokuapp.com/',
+    heroku: 'https://lev-choubine.github.io/',
     video: 'https://res.cloudinary.com/dok4pz3i3/video/upload/v1612331176/xainkofuximwxrq7toki.mp4',
     info: "#javaScript, #SpriteAnimation, #CSS, #Taste",
     speil:"A vintage styled racing game nodding toward the Wangan midnight racing culture. Collision detection and a lot of fun.",
