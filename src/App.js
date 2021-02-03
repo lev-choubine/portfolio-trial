@@ -13,8 +13,29 @@ import Git from './Components/Git'
 
 
 const work= [
-{
-  id:1,
+
+  {id:1,
+    Name: 'Token(click here for GirHub)',
+    heroku: 'https://token-dates.herokuapp.com/',
+    video: 'https://res.cloudinary.com/dok4pz3i3/video/upload/v1612330016/yph9sdzwvieq1y8r9a1m.mp4',
+    info: "#EJS, #Express, #Mongo, #Mongoose, #Node.js, #Sockets.io, #Cloudinary, #Passport, #React.js",
+    speil:"A dating application where the user can either swipe to the right to like their potential match or swipe left to keep searching. A swip to the right will trigger a chat with another user. The chat can only take place if another user accepts the invitation.",
+    gitHubF: "",
+    gitHubB: "",
+    
+  },
+  {id:2,
+    Name: 'Crazy Driver(click here for GirHub)',
+    heroku: 'https://token-dates.herokuapp.com/',
+    video: 'https://res.cloudinary.com/dok4pz3i3/video/upload/v1612331176/xainkofuximwxrq7toki.mp4',
+    info: "#javaScript, #SpriteAnimation, #CSS, #Taste",
+    speil:"A vintage styled racing game nodding toward the Wangan midnight racing culture. Collision detection and a lot of fun.",
+    gitHubF: "",
+    gitHubB: "",
+    
+  },
+  {
+  id:3,
   Name: 'Tab Sensei(click here for GitHub)',
   heroku: 'http://tabsensei.herokuapp.com/',
   video:'https://res.cloudinary.com/dok4pz3i3/video/upload/v1610911373/bkzo3hrldtxf16oj8w8g.mp4',
@@ -23,7 +44,7 @@ const work= [
   gitHubF: "https://github.com/lev-choubine/tab-sensei-frontend-group-project",
   gitHubB: "https://github.com/lev-choubine/tab-sensei-backend/settings"
 },
-{id:2,
+{id:4,
   Name: 'Famished(click here for GirHub)',
   heroku: 'https://famished.herokuapp.com/',
   video: 'https://res.cloudinary.com/dok4pz3i3/video/upload/v1610911433/xzdvof4wywepqwgoex4u.mp4',
@@ -33,6 +54,7 @@ const work= [
   gitHubB: "",
   
 }
+
 
 
 ]
