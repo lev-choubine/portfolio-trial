@@ -71,10 +71,15 @@ function App() {
 <Info2 />
    </div>
    </div>
+  
+ 
    <div id="below">
-   <Route path="/Resume" component={Resume} />
+   <div id="belowWhiteOut">
+   
+  <Route path="/Resume" component={Resume} />
   <Route path="/" render={()=>{return <Git proceduresList={work} /> }}/>
   <Route path="/Contact" component={Contact} />
+  </div>
   </div>
 
 

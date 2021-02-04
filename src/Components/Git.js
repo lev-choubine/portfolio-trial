@@ -4,13 +4,13 @@ import ReactPlayer from "react-player";
 
 function Git(props) {
   
-const procedureItems = props.proceduresList.map((p)=>{
+const procedureItems = props.proceduresList.map((p, index)=>{
 return (
 <div>
-    <div class="video_box">
-        <div class="game_info">   
+    <div className="video_box" key={index}>
+        <div className="game_info">   
             <h3>{p.name}</h3>
-            <h5 class="lingo">{p.info}</h5>
+            <h5 className="lingo">{p.info}</h5>
             <h6>{p.speil}</h6>
        
              <a  href={p.heroku}><div className="linkstoapps"><img className="gittohabbu" src="https://cdn.icon-icons.com/icons2/2108/PNG/512/heroku_icon_130912.png"/><p>Live Version</p></div></a>

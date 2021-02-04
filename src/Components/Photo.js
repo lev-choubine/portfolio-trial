@@ -1,6 +1,7 @@
 
 import Contact from './Contact'
 import { Link } from 'react-router-dom'
+import React, {useEffect} from 'react'
 
 function Photo() {
   function showProjects(){
@@ -10,6 +11,9 @@ function Photo() {
     function hideProjects(){
       document.querySelector('#projects').style.display="none"
     }
+   
+
+  
   
       return(
      
@@ -17,7 +21,7 @@ function Photo() {
       <Contact /> 
         <div id="photoBox">
         <div className="photoButtons" > <a href="https://github.com/lev-choubine"><img className="gittohabbu" src="https://image.flaticon.com/icons/png/512/25/25231.png"/></a>
-        <li class="navLink" onClick={showProjects}><Link to="/">HOME</Link></li>
+        <li id="hommu" className="navLink homePage"  onClick={showProjects}><Link to="/">HOME</Link></li>
         </div>
         <img id="pic" src='https://avatars0.githubusercontent.com/u/68445801?v=4'/>
          <div className="photoButtons">
