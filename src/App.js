@@ -65,6 +65,7 @@ function App() {
     <BrowserRouter>
 
 <div >
+< Languages />
   <div id="fixedHeader">
   <div id="header">
 {/* <Info /> */}
@@ -73,7 +74,7 @@ function App() {
    </div>
    </div>
   
-  < Languages />
+
    <div id="below">
    <div id="belowWhiteOut">
    
