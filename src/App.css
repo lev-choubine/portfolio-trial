@@ -99,7 +99,17 @@ body {
   background-color: rgba(253, 253, 253, 0.767);
   border: 2px solid rgba(128, 128, 128, 0.555);
   border-radius: 10px;
+  font-weight: 900;
 
+}
+
+#languages {
+  text-align: center;
+  display: flex;
+  background-color: rgba(59, 90, 59, 0.288);
+  color: rgba(4, 37, 26, 0.76);
+  padding: 10px;
+  font-weight: 900;
 }
 
 #photoBox {

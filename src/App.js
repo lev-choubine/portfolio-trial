@@ -9,7 +9,8 @@ import Info2 from './Components/Info2';
 
 import Contact from './Components/Contact';
 import Resume from './Components/Resume';
-import Git from './Components/Git'
+import Git from './Components/Git';
+import Languages from './Components/Languages';
 
 
 const work= [
@@ -66,13 +67,13 @@ function App() {
 <div >
   <div id="fixedHeader">
   <div id="header">
-<Info />
+{/* <Info /> */}
 <Photo />
-<Info2 />
+{/* <Info2 /> */}
    </div>
    </div>
   
- 
+  < Languages />
    <div id="below">
    <div id="belowWhiteOut">
    
