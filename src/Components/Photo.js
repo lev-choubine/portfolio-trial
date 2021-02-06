@@ -24,7 +24,7 @@ function Photo() {
         <li id="hommu" className="navLink homePage"  onClick={showProjects}><Link to="/">HOME</Link></li>
         </div>
         <div>
-        <img  src='https://avatars0.githubusercontent.com/u/68445801?v=4' id="pic" />
+        <img  src='https://avatars0.githubusercontent.com/u/68445801?v=4' id="pic"/>
         </div>
          <div className="photoButtons">
          <li class="navLink" onClick={hideProjects}><Link to="/Resume">RESUME</Link></li>
