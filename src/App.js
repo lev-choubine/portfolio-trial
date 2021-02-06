@@ -66,7 +66,7 @@ function App() {
 <div >
 < Languages />
 
-   </div>
+  
 
   <div id="fixedHeader">
   <div id="header">
@@ -109,6 +109,7 @@ function App() {
 
 </div>
 </BrowserRouter>
+</div>
   )
 }
 
