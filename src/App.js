@@ -62,15 +62,16 @@ const work= [
 
 function App() {
   return (
-    <BrowserRouter>
+  
 <div >
+<BrowserRouter>
 < Languages />
 
   
 
   <div id="fixedHeader">
   <div id="header">
-{/* <Info /> */}
+
 <Photo />
 
    </div>
@@ -87,29 +88,13 @@ function App() {
 
 
 
-  {/* <Route path="/Git" render={()=>{return <Git proceduresList={work} /> }} /> */}
-  {/* <Route path="/Works/:id" render={(routeInfo)=>{
-       console.log(routeInfo.match.params);
-       const id = routeInfo.match.params.id
-       const targetProcedures= work.find((p)=>p.id===parseInt(id))
-       return <Works procedure={targetProcedures} />
-     }} /> */}
 
-{/*  
 
- 
-<Route path="/Procedures" render={()=>{return <Procedures proceduresList={proceduresList}  /> }} />
- 
- <Route path="/procedures/:id" render={(routeInfo)=>{
-   console.log(routeInfo.match.params);
-   const id = routeInfo.match.params.id
-   const targetProcedures= proceduresList.find((p)=>p.id===parseInt(id))
-   return <ProcedureDetails procedure={targetProcedures} />
- }} /> */}
 
 </div>
 </BrowserRouter>
 </div>
+
   )
 }
 
