@@ -63,15 +63,16 @@ const work= [
 function App() {
   return (
     <BrowserRouter>
-
 <div >
 < Languages />
+
+   </div>
+
   <div id="fixedHeader">
   <div id="header">
 {/* <Info /> */}
 <Photo />
-{/* <Info2 /> */}
-   </div>
+
    </div>
   
 
