@@ -86,7 +86,7 @@ body {
   border-radius: 100%;
   border: solid 5px rgba(255, 255, 255, 0.205);
   margin-top:auto;
-  opacity: 88%;
+  /* opacity: 0.8; */
   background-color: cornflowerblue;
  
 }
