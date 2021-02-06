@@ -107,10 +107,12 @@ body {
 #languages {
   text-align: center;
   display: flex;
+  justify-content: space-between;
   background-color: rgba(59, 90, 59, 0.288);
   color: rgba(4, 37, 26, 0.76);
   padding: 10px;
   font-weight: 900;
+  /* background-color: brown; */
 }
 
 #photoBox {
@@ -307,6 +309,10 @@ Nav{
   color: rgba(27, 27, 27, 0.678);
   font-weight: 900;
   font-family: 'Montserrat', sans-serif;
+}
+
+.go{
+  height: 30px;
 }
 
 

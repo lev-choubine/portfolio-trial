@@ -4,8 +4,8 @@ import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import Photo from './Components/Photo';
-import Info from './Components/Info';
-import Info2 from './Components/Info2';
+// import Info from './Components/Info';
+// import Info2 from './Components/Info2';
 
 import Contact from './Components/Contact';
 import Resume from './Components/Resume';

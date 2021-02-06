@@ -13,7 +13,7 @@ return (
             <h5 className="lingo">{p.info}</h5>
             <h6>{p.speil}</h6>
        
-             <a  href={p.heroku}><div className="linkstoapps"><img className="gittohabbu" src="https://cdn.icon-icons.com/icons2/2108/PNG/512/heroku_icon_130912.png"/><p>Live Version</p></div></a>
+             <a  href={p.heroku}><div className="linkstoapps"><img className="gittohabbu" src="https://cdn.iconscout.com/icon/free/png-512/heroku-6-599422.png"/><p>Live Version</p></div></a>
         </div>
             <div className="videoBox">
                 <ReactPlayer 
