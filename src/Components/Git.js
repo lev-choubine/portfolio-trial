@@ -28,7 +28,7 @@ return (
 </div>)
     })
     return(
-        <div id="projects">
+        <div >
             {procedureItems}
         </div>
     )

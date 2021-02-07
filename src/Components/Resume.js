@@ -1,6 +1,3 @@
-
-
-
 function Resume() {
     return (
       <div id='res'>

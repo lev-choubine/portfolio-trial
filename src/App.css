@@ -87,16 +87,15 @@ body {
   border: solid 5px rgba(255, 255, 255, 0.205);
   margin-top:auto;
   /* opacity: 0.8; */
-  background-color: cornflowerblue;
+  background-color: rgba(224, 225, 226, 0.281);
  
 }
 
 #midHeader{
-  /* background-color: chocolate; */
-  /* width: 250px; */
   flex: 50%;
   padding: auto;
 }
+
 #res{
   width: 45%;
   margin: auto;
@@ -104,7 +103,6 @@ body {
   border: 2px solid rgba(128, 128, 128, 0.555);
   border-radius: 10px;
   font-weight: 900;
-
 }
 
 #languages {
@@ -115,7 +113,6 @@ body {
   color: rgba(4, 37, 26, 0.76);
   padding: 10px;
   font-weight: 900;
-  /* background-color: brown; */
 }
 
 #photoBox {
@@ -126,17 +123,11 @@ body {
 #links {
  
   font-family: 'Montserrat', sans-serif;
-  /* text-align: center; */
   flex: 100%;
   display:flex;
   list-style-type: none;
-  
   margin: auto;
   justify-content: space-evenly;
-  /* background-color: rgb(75, 47, 107); */
- 
-  /* background-color: brown; */
-  /* width: 180px; */
 }
 
 
@@ -247,7 +238,6 @@ padding-top: 10px;
 width:450px;
 margin: auto;
 padding: 20px;
-
 }
 
 ul {
@@ -316,6 +306,11 @@ Nav{
 
 .go{
   height: 30px;
+}
+
+.linksu {
+  display: flex;
+  justify-content: space-around;
 }
 
 
