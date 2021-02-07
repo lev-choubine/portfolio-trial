@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Julius+Sans+One&family=Poiret+One&display=swap');
+
+.videoBox {
+    display: flex;
+    margin-top: 0;
+  }
+
+.linksu {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: auto;
+}
+
+.lingo{
+    background-color: rgba(240, 255, 255, 0.363);
+    color: rgba(7, 37, 7, 0.74);
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
+    width:650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.projectHeader{
+    padding-top:30px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: rgba(11, 19, 11, 0.63);
+   
+
+}
+  
+.projectDescription {
+    max-width: 600px;
+    text-align: center;
+    font-family: 'Chivo', sans-serif;
+    font-size: 14px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgba(11, 19, 11, 0.63);
+}

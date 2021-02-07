@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import './Project.css';
+import './Resume.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Photo from './Components/Photo';
 import Contact from './Components/Contact';
