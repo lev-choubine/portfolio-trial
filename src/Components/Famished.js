@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 
 function Famished () {
     return(
-        <div>
+        <div className="lowerBody">
             <div className="video_box">
                 <div className="game_info">   
                     <h3>Famished</h3>

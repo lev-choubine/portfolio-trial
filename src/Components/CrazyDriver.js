@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 
 function CrazyDriver () {
     return(
-        <div>
+        <div className="lowerBody">
             <div className="video_box">
                 <div className="game_info">   
                     <h3>Crazy Driver</h3>

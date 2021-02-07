@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 
 function Token () {
     return(
-        <div>
+        <div className="lowerBody">
             <div className="video_box">
                 <div className="game_info">   
                     <h3>Token</h3>

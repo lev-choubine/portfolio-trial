@@ -183,7 +183,6 @@ li {
    -webkit-margin-collapse: auto;
    border-radius: 10px;
    padding-bottom: 60px;
-  
 }
 
 #res{
@@ -270,7 +269,6 @@ Nav{
 
 #below {
   overflow-y: scroll;
-  /* background-color: rgba(159, 160, 158, 0.733); */
   position: static;
   max-height: 550px;
   z-index: -2;
@@ -284,15 +282,11 @@ Nav{
 }
 
 #belowWhiteOut {
-  margin-top: 0;
   background-color: rgba(130, 158, 161, 0.829);
- 
- 
 }
 
 .videoBox {
   margin-top: 60px;
-  
 }
 
 #speil {
@@ -311,6 +305,10 @@ Nav{
 .linksu {
   display: flex;
   justify-content: space-around;
+}
+
+.lowerBody{
+  padding: 20px;
 }
 
 

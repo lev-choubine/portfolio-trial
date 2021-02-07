@@ -29,7 +29,7 @@ function App() {
               < CrazyDriver />
               <Famished />
             </div>
-            <Route path="/Contact" component={Contact} />
+              <Route path="/Contact" component={Contact} />
           </div>
         </div>
       </div>
