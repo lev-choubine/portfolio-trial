@@ -38,7 +38,7 @@ function Photo() {
             </a>
           </div>
         </div>
-          <h6 id="speil">Full stack developer. <br/>Graduated from General Assembly's Software Engineering Immersive program.</h6>
+          <h6 id="speil">Full stack developer based in New York City. <br/>Graduated from General Assembly's Software Engineering Immersive program.</h6>
      
     </div>
   );

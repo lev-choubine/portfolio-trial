@@ -27,10 +27,13 @@
 
 .projectHeader{
     padding-top:30px;
+    padding-bottom: 15px;
     text-align: center;
     font-size: 45px;
     font-family: 'Julius Sans One', sans-serif;
-    color: rgba(11, 19, 11, 0.63);
+    color: rgb(235, 229, 229);
+    margin-top:0px;
+    
    
 
 }
