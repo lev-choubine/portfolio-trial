@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;900&display=swap');
+
+#kanji {
+    max-width: 150px;
+    height: 150px;
+    font-size: 90px;
+    text-align: center;
+    max-height: 1200px;
+    font-weight: 700;
+    color: rgb(253, 253, 253);
+    border: solid 2px black;
+    border-radius: 10px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: auto;
+}
+
+#searchBar {
+    margin: auto;
+    width:300px;
+    text-align: center;
+}
+
+#inputKanji{
+    margin: auto;
+}
+
+#choice{
+    text-align: center;
+}
+
+#english{
+    max-width: 150px;
+    height: 150px;
+    font-size: 18px;
+    text-align: center;
+    max-height: 1200px;
+    font-weight: 700;
+    color: rgb(253, 253, 253);
+    border: solid 2px black;
+    border-radius: 10px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: auto;
+}

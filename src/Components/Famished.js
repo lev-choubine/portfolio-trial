@@ -22,7 +22,7 @@ function Famished () {
                 <h5 className="lingo">#EJS, #Express, #SQL, #Sequelize, #Node.js, #GoogleMatrixDistanceAPI, #Cloudinary, #Passport
                 </h5>
                 <div>
-                    <h6 className="projectDescription">A multi-profile search engine that allows users and mobile vendors connect with eachother based on proximity. The apllication filters out user's desired food items, matches them against the offers by sellers and returns options based on est price and proximity! Have fun - you can use '420St Nicholas Ave New York, NY, 10027' as your default addresss if you want to test the lice application out.</h6>
+                    <h6 className="projectDescription">A multi-profile search engine that allows users and mobile vendors connect with eachother based on proximity. The apllication filters out user's desired food items, matches them against the offers by sellers and returns options based on est price and proximity! Have fun - you can use '420St Nicholas Ave New York, NY, 10027' as your default addresss if you want to test the application out.</h6>
                 </div>
                 <div className="linksu">
                         <a  href="https://famished.herokuapp.com/">

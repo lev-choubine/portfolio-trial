@@ -34,7 +34,11 @@ function Photo() {
             <li class="navLink" onClick={hideProjects}>
               <Link to="/Resume">RESUME</Link>
             </li>
+            <li class="navLink" onClick={hideProjects}>
+              <Link to="/Kanji">MY INTERESTS</Link>
+            </li>
             <a href="https://www.linkedin.com/in/lev-choubine/"><img className="gittohabbu" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/1200px-Linkedin_icon.svg.png"/>
+            
             </a>
           </div>
         </div>
