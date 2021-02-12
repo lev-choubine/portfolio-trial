@@ -1,6 +1,6 @@
 import { useState, useEffect} from 'react';
 import Axios from 'axios'
-import * as React from 'react';
+import * as wanakana from 'wanakana';
 
 // import { View } from 'react-native';
 // import { RadioButton } from 'react-native-paper';
@@ -10,13 +10,27 @@ function Kanji() {
     const [kanjiResult, setKanjiResult]= useState("")
     const [mode, setMode]=useState("kanji")
 
+    function typeKana(e){
+        if(mode==="kanji"){
+            setKanjiLookUp(e.target.value)
+            document.getElementById("fakeinput").style.visibility="hidden"
+        }else{
+            setKanjiLookUp(wanakana.toKana(e.target.value))
+
+            document.getElementById("fakeinput").style.visibility="visible"
+        }
+    }
+
     function getKanji(e){
-       
+        
         setMode("kanji")
+        document.getElementById("fakeinput").style.visibility="hidden"
     }
     function getEnglish(e){
      
         setMode("english")
+        setKanjiLookUp(wanakana.toKana(kanjiLookUp))
+        document.getElementById("fakeinput").style.visibility="visible"
     }
 
     function makeRequest(){
@@ -27,15 +41,21 @@ function Kanji() {
         console.log(kanjiLookUp)
         Axios.get(`https://kanji-cors-bypass.herokuapp.com/api/${kanjiLookUp}`).then(res=>{
         console.log(res.data)
+        if(res.data.length===0){
+            setKanjiResult([{slug: "˃̣̣⌓˂̣̣̥", senses:[{english_definitions:["no results were found"]}]}])
+            return
+        }
         setKanjiResult(res.data)})
         .catch(err=>{console.log(err)})
     
     }
-// useEffect=(()=>{
-   
-// },[])
+
     return(
         <div id="kanjiParent">
+            <h4 id="intro">
+                I got really insterested in Japanese language during the pandemic. It's not easy task and I am sure those who study Japanese - will agree that learning Kanji is one of the most difficult things about the language. You always have to look them up....<br/> 
+                I buit a little converter that will help you look up definitions of Kanji or find a Kanji based on the English word you enter.
+            </h4>
             {mode==="kanji"?
             <p id="kanji">
                 {kanjiResult ? 
@@ -45,9 +65,15 @@ function Kanji() {
             <p id="english">  {kanjiResult ? kanjiResult[0].senses[0].english_definitions[0]: "" }</p>
             }
             <form id="searchBar" onSubmit={e=>{e.target.reset(); e.preventDefault(); setKanjiLookUp('')}}>
-                <input id="inputKanji" type="text" placeholder="Enter a word" onChange={(e=>{setKanjiLookUp(e.target.value)})}></input>
+                <div id="fakeinput">
+                    <p >{kanjiLookUp}</p>
+                </div>
+                <input id="inputKanji" type="text" placeholder="Enter a word" onChange={typeKana}></input>
+                
                 <br></br>
-                <button id="comment" onClick={makeRequest}>Send</button> 
+                <button onClick={makeRequest}>
+                <img src="https://cdn2.iconfinder.com/data/icons/boldico/71/magnifying_glass-zoom-512.png"id="comment" />
+                </button>
             </form>
             <div id="choice">
                 <form>

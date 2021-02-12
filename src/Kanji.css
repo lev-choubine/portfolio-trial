@@ -3,11 +3,12 @@
 #kanji {
     max-width: 150px;
     height: 150px;
-    font-size: 90px;
+    font-size: 60px;
     text-align: center;
     max-height: 1200px;
     font-weight: 700;
     color: rgb(253, 253, 253);
+    background-color: rgba(0, 0, 0, 0.568);
     border: solid 2px black;
     border-radius: 10px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -29,6 +30,7 @@
 }
 
 #english{
+    padding-top:10px;
     max-width: 150px;
     height: 150px;
     font-size: 18px;
@@ -40,4 +42,25 @@
     border-radius: 10px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     margin: auto;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+#fakeinput {
+    min-height: 30px;
+}
+
+#intro{
+    text-align: center;
+    width:50%;
+    margin: auto;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+#comment{
+    padding:3px;
+    height: 35px;
+    width: 35px;
 }
