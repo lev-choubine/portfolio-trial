@@ -3,7 +3,7 @@
 #kanji {
     width: 150px;
     height: 150px;
-    font-size: 80px;
+    /* font-size: 80px; */
     text-align: center;
     font-weight: 700;
     color: rgb(253, 253, 253);

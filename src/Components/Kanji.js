@@ -15,23 +15,27 @@ function Kanji() {
         if(mode==="kanji"){
             setKanjiLookUp(e.target.value)
             document.getElementById("fakeinput").style.visibility="hidden"
+           
         }else{
             setKanjiLookUp(wanakana.toKana(e.target.value))
-
             document.getElementById("fakeinput").style.visibility="visible"
+           
         }
     }
 
     function getKanji(e){
-        
         setMode("kanji")
         document.getElementById("fakeinput").style.visibility="hidden"
+        setKanjiLookUp("")
+        setKanjiResult("")
     }
     function getEnglish(e){
      
         setMode("english")
         setKanjiLookUp(wanakana.toKana(kanjiLookUp))
         document.getElementById("fakeinput").style.visibility="visible"
+        setKanjiLookUp("")
+        setKanjiResult("")
     }
 
     function makeRequest(){
@@ -46,6 +50,7 @@ function Kanji() {
             setKanjiResult([{slug: "˃̣̣⌓˂̣̣̥", senses:[{english_definitions:["no results were found"]}]}])
             return
         }
+       
         setKanjiResult(res.data)
         if(res.data[0].slug.length===1){
             document.getElementById('kanji').style.fontSize="80px"
@@ -56,6 +61,7 @@ function Kanji() {
         }else{
             document.getElementById('kanji').style.fontSize="25px"
         }
+     
         })
         .catch(err=>{console.log(err)})
     
