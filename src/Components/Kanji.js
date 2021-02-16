@@ -6,6 +6,7 @@ import * as wanakana from 'wanakana';
 // import { RadioButton } from 'react-native-paper';
 
 function Kanji() {
+    
     const [kanjiLookUp, setKanjiLookUp]= useState("")
     const [kanjiResult, setKanjiResult]= useState("")
     const [mode, setMode]=useState("kanji")
@@ -45,23 +46,43 @@ function Kanji() {
             setKanjiResult([{slug: "˃̣̣⌓˂̣̣̥", senses:[{english_definitions:["no results were found"]}]}])
             return
         }
-        setKanjiResult(res.data)})
+        setKanjiResult(res.data)
+        if(res.data[0].slug.length===1){
+            document.getElementById('kanji').style.fontSize="80px"
+        }else if(res.data[0].slug.length===2){
+            document.getElementById('kanji').style.fontSize="50px"
+        }else if(res.data[0].slug.length===3){
+            document.getElementById('kanji').style.fontSize="35px"
+        }else{
+            document.getElementById('kanji').style.fontSize="25px"
+        }
+        })
         .catch(err=>{console.log(err)})
     
     }
-
+  
     return(
         <div id="kanjiParent">
             <h4 id="intro">
                 I got really insterested in Japanese language during the pandemic. It's not easy task and I am sure those who study Japanese - will agree that learning Kanji is one of the most difficult things about the language. You always have to look them up....<br/> 
                 I buit a little converter that will help you look up definitions of Kanji or find a Kanji based on the English word you enter.
             </h4>
+            <div id="kanjiApp">
             {mode==="kanji"?
-            <p id="kanji">
+            <div>
+                <p id="kanji">
+                    {kanjiResult ? 
+                        kanjiResult[0].slug
+                        : ""}
+                </p>
+                <p>reading: </p>
+                <p id="reading">
                 {kanjiResult ? 
-                    kanjiResult[0].slug
+                    kanjiResult[0].japanese[0].reading                    
                     : ""}
-            </p>:
+                </p>
+            </div>
+            :
             <p id="english">  {kanjiResult ? kanjiResult[0].senses[0].english_definitions[0]: "" }</p>
             }
             <form id="searchBar" onSubmit={e=>{e.target.reset(); e.preventDefault(); setKanjiLookUp('')}}>
@@ -82,6 +103,7 @@ function Kanji() {
                 <label>Get Englsih</label>
                 <input type="radio" name="kanji" value="english" onClick={getEnglish} ></input>
                 </form>
+            </div>
             </div>
         </div>
     )

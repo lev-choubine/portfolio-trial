@@ -3,7 +3,7 @@
 #kanji {
     max-width: 150px;
     height: 150px;
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
     max-height: 1200px;
     font-weight: 700;
@@ -63,4 +63,13 @@
     padding:3px;
     height: 35px;
     width: 35px;
+}
+
+#kanjiApp{
+    border: solid 3px black;
+    width:500px;
+    margin:auto;
+    border-radius: 20px;
+    background-color: rgba(255, 228, 196, 0.212);
+    padding-top: 20px;
 }
