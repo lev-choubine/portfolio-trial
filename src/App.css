@@ -117,7 +117,6 @@ body {
 }
 
 #links {
- 
   font-family: 'Montserrat', sans-serif;
   flex: 100%;
   display:flex;
@@ -125,10 +124,6 @@ body {
   margin: auto;
   justify-content: space-evenly;
 }
-
-
-
-
 
 li {
   flex: 33%;
@@ -139,13 +134,11 @@ li {
   font-weight: 600;
 }
 
-
-
-
 .linkstoapps {
   text-align: center;
   line-height: 0;
 }
+
 .video_box{
    background-color: rgba(201, 204, 204, 0.582);
    justify-content: space-around;
@@ -178,12 +171,9 @@ li {
 
 
 .game_info {
-  /* width: 500px; */
   background-color: rgba(85, 138, 138, 0.712);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  /* margin-top:60px; */
-  /* margin-left: 30px; */
   padding-top: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -192,8 +182,6 @@ li {
 }
 
 .navLink{
-  /* background-color: rgb(207, 207, 207); */
-  /* margin: auto; */
   font-weight: 900;
   color:rgba(245, 245, 245, 0.856);
   font-size: 25px;

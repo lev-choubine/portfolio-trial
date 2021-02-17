@@ -69,10 +69,6 @@ function Kanji() {
   
     return(
         <div id="kanjiParent">
-            <h4 id="intro">
-                I got really insterested in Japanese language during the pandemic. It's not easy task and I am sure those who study Japanese - will agree that learning Kanji is one of the most difficult things about the language. You always have to look them up....<br/> 
-                I buit a little converter that will help you look up definitions of Kanji or find a Kanji based on the English word you enter.
-            </h4>
             <div id="kanjiApp">
             {mode==="kanji"?
             <div className="upperBody">
@@ -113,7 +109,7 @@ function Kanji() {
                 <input id="inputKanji" type="text" placeholder="Enter a word" onChange={typeKana}></input>
                 
                 <br></br>
-                <button onClick={makeRequest}>
+                <button id="searchButton" onClick={makeRequest}>
                 <img src="https://cdn2.iconfinder.com/data/icons/boldico/71/magnifying_glass-zoom-512.png"id="comment" />
                 </button>
             </form>
@@ -127,6 +123,10 @@ function Kanji() {
             </div>
             </div>
             </div>
+            <h5 id="intro">
+                I got really insterested in Japanese language during the pandemic. It's no easy task and I am sure those who study Japanese - will agree that learning Kanji is one of the most difficult things about the language. You always have to look them up....<br/> 
+                I built out a little converter that will help you look up definitions of Kanji or find a Kanji based on the English word you enter.
+            </h5>
         </div>
     )
 }
