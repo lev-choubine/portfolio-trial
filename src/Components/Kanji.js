@@ -75,7 +75,7 @@ function Kanji() {
             </h4>
             <div id="kanjiApp">
             {mode==="kanji"?
-            <div id="upperBody">
+            <div className="upperBody">
                 <div>
                 <p id="kanji">
                     {kanjiResult ? 
@@ -94,7 +94,18 @@ function Kanji() {
                 </div>
             </div>
             :
-            <p id="english">  {kanjiResult ? kanjiResult[0].senses[0].english_definitions[0]: "" }</p>
+            <div className="upperBody">
+            <p id="english">  {kanjiResult ? 
+            kanjiResult[0].senses[0].english_definitions[0]
+            
+            : "" }</p>
+            <p id="kanji">  {kanjiResult ? 
+            kanjiResult[0].slug
+            
+            : "" }</p>
+            
+         
+            </div>
             }
             <div id="lowerBody">
             <form id="searchBar" onSubmit={e=>{e.target.reset(); e.preventDefault(); setKanjiLookUp('')}}>
