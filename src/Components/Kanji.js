@@ -84,9 +84,7 @@ function Kanji() {
                 </p>
                 </div>
                 <div>
-                <p id="reading">
-              
-                <p>reading: </p>    
+                <p id="reading">   
                 {kanjiResult ? 
                     kanjiResult[0].japanese[0].reading                    
                     : ""}
