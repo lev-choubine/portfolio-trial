@@ -56,6 +56,10 @@
 #choice{
     text-align: center;
     margin-bottom: 0px;
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
 }  
 
 #english{
@@ -77,6 +81,10 @@
 
 #fakeinput {
     min-height: 80px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #intro{
@@ -93,16 +101,16 @@
 
 #comment{
     padding:3px;
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
 }
 
 #kanjiApp{
-    border: solid 3px black;
+    border: solid 1px black;
     width:350px;
     height: 400px;
     margin:auto;
-    border-radius: 20px;
+    border-radius: 8px;
     background-image: linear-gradient(to right, rgba(14, 13, 13, 0.932) , rgba(82, 81, 81, 0.801));
     padding-top: 20px;
     padding-bottom: 0px;
@@ -122,7 +130,12 @@
 }
 
 #searchButton{
-    width: 150px;
-    background-color: rgba(22, 22, 22, 0.404);
+    width: 120px;
+    background-color: rgba(78, 78, 78, 0.404);
     border-radius: 10px;
+    outline:rgba(0, 0, 0, 0);
+}
+
+select option {
+    background-color: transparent; 
 }

@@ -110,7 +110,7 @@ function Kanji() {
                 
                 <br></br>
                 <button id="searchButton" onClick={makeRequest}>
-                <img src="https://cdn2.iconfinder.com/data/icons/boldico/71/magnifying_glass-zoom-512.png"id="comment" />
+                <img src="https://img.pngio.com/white-magnifying-glass-3-icon-free-white-magnifying-glass-icons-white-magnifying-glass-png-256_256.png" id="comment" />
                 </button>
             </form>
             <div id="choice">
