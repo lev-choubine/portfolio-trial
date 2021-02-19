@@ -29,6 +29,7 @@ function App() {
           <div id="belowWhiteOut">
             <Route path="/Resume"  component={Resume} /> 
             <Route exact strict path="/" component={Kanji} /> 
+            <Route exact strict path="/Kanji" component={Kanji} /> 
             <Route path="/TabSensei" component={TabSensei} /> 
             <Route path="/CrazyDriver" component={CrazyDriver} /> 
             <Route path="/Token" component={Token} /> 
