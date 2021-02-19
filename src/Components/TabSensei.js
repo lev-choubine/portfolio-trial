@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactPlayer from "react-player";
+import { BrowserRouter, Link } from 'react-router-dom';
 
 function TabSensei () {
     return(
         <div className="lowerBody">
+         <div id="kanjiParent">  
+         <div className="tsugi">
+                <Link  to="/Famished">Famished</Link> 
+            </div> 
             <div className="video_box">
                 <div className="game_info">  
                     <h3 className="projectHeader">Tab Sensei</h3>
@@ -40,6 +45,10 @@ function TabSensei () {
                             </div>
                         </a>
                     </div>
+            </div> 
+            <div className="tsugi">
+                <Link  to="/Token">Token</Link> 
+            </div> 
             </div> 
         </div>
     )

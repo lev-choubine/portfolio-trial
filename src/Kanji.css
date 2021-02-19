@@ -109,7 +109,9 @@
     border: solid 1px black;
     width:350px;
     height: 400px;
-    margin:auto;
+    margin-top:50px;
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 8px;
     background-image: linear-gradient(to right, rgba(14, 13, 13, 0.932) , rgba(82, 81, 81, 0.801));
     padding-top: 20px;

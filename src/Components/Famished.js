@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactPlayer from "react-player";
+import { BrowserRouter, Link } from 'react-router-dom';
 
 function Famished () {
     return(
         <div className="lowerBody">
+            <div id="kanjiParent">
+                <div className="tsugi">
+                    <Link  to="/CrazyDriver">Wangan Midnight</Link> 
+                </div>
             <div className="video_box">
                 <div className="game_info">   
                     <h3 className="projectHeader">Famished</h3>
@@ -36,6 +41,10 @@ function Famished () {
                             </div>
                         </a>
                     </div>
+                </div>
+                <div className="tsugi">
+                    <Link  to="/TabSensei">TabSensei</Link> 
+                </div>
                 </div>
         </div>
     )

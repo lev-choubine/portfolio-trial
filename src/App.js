@@ -16,6 +16,7 @@ import Famished from './Components/Famished';
 
 
 function App() {
+ 
   return (
     <div>
       <BrowserRouter>
@@ -24,20 +25,23 @@ function App() {
         <div id="header">
           <Photo />
         </div>
+        </div>
         <div id="below">
           <div id="belowWhiteOut">
-            <Route path="/Resume" component={Resume} /> 
-            <Route path="/Kanji" component={Kanji} /> 
-            <div id="projects">
-              <Token />
-              <TabSensei />
-              < CrazyDriver />
-              <Famished />
-            </div>
+            <Route path="/Resume"  component={Resume} /> 
+            <Route exact strict path="/" component={Kanji} /> 
+            <Route path="/TabSensei" component={TabSensei} /> 
+            <Route path="/CrazyDriver" component={CrazyDriver} /> 
+            <Route path="/Token" component={Token} /> 
+            <Route path="/Famished"  component={Famished} /> 
+            {/* <div id="projects">
+              < Kanji />
+            </div> */}
               <Route path="/Contact" component={Contact} />
           </div>
         </div>
-      </div>
+        
+     
       </BrowserRouter>
     </div>
   )

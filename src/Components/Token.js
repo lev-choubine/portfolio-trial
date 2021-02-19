@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactPlayer from "react-player";
+import { BrowserRouter, Link } from 'react-router-dom';
 
 function Token () {
     return(
         <div className="lowerBody">
+             <div id="kanjiParent">
+            <div className="tsugi">
+                <Link  to="/TabSensei">TabSensei</Link> 
+            </div>
             <div className="video_box">
                 <div className="game_info">   
                     <h3 className="projectHeader">Token</h3>
@@ -41,6 +46,10 @@ function Token () {
                         </a>
                     </div>
             </div> 
+            <div className="tsugi">
+                <Link  to="/">Kanji</Link> 
+            </div>
+            </div>
         </div>
     )
 }

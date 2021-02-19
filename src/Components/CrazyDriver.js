@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactPlayer from "react-player";
+import { Link } from 'react-router-dom';
 
 function CrazyDriver () {
     return(
         <div className="lowerBody">
+             <div id="kanjiParent">
+            <div className="tsugi">
+                <Link  to="/">Kanji</Link> 
+            </div>
             <div className="video_box">
                 <div className="game_info">   
                     <h3 className="projectHeader">湾岸竞速(Wangan Midnight)</h3>
@@ -36,7 +41,10 @@ function CrazyDriver () {
                         </a>
                     </div>
                 </div>
-                
+            <div className="tsugi">
+                <Link  to="/Famished" >Famished</Link> 
+            </div>
+            </div>
         </div>
     )
 }
