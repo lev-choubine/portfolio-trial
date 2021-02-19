@@ -5,7 +5,6 @@ import './Resume.css';
 import './Kanji.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Photo from './Components/Photo';
-import Contact from './Components/Contact';
 import Resume from './Components/Resume';
 import Kanji from './Components/Kanji';
 import Languages from './Components/Languages';
@@ -34,10 +33,6 @@ function App() {
             <Route path="/CrazyDriver" component={CrazyDriver} /> 
             <Route path="/Token" component={Token} /> 
             <Route path="/Famished"  component={Famished} /> 
-            {/* <div id="projects">
-              < Kanji />
-            </div> */}
-              <Route path="/Contact" component={Contact} />
           </div>
         </div>
         

@@ -106,7 +106,7 @@ body {
   text-align: center;
   display: flex;
   justify-content: space-between;
-  background-image: linear-gradient(to left, rgba(99, 110, 91, 0.151) , rgba(40, 90, 70, 0.527));
+  background-image: linear-gradient(to left, rgba(99, 110, 91, 0.151) , rgba(40, 90, 70, 0.589));
   color: rgba(4, 37, 26, 0.76);
   padding: 10px;
   font-weight: 900;
@@ -276,6 +276,15 @@ Nav{
   text-align: center;
   /* border:solid 2px black; */
  
+}
+
+#mail{
+  height:45px;
+  margin-left:50px;
+}
+
+#numba {
+  margin-left: 45px;
 }
 
 
