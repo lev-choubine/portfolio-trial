@@ -72,7 +72,7 @@ function Kanji() {
     return(
         <div id="kanjiParent">
             <div className="tsugi">
-                <Link  to="/Token"> Token </Link> 
+                <Link  to="/Token"> <img className="arrow" />Token </Link> 
             </div>
             <div>
             <div id="kanjiApp">
@@ -132,11 +132,12 @@ function Kanji() {
             <h5 id="intro">
                 I got really insterested in Japanese language during the pandemic. It's no easy task and I am sure those who study Japanese - will agree that learning Kanji is one of the most difficult things about the language. You always have to look them up....<br/> 
                 I built out a little converter that will help you look up definitions of Kanji or find a Kanji based on the English word you enter.
-                This frontend is written in react while the API request is fulfilled thrugh a backend application written in Django.
+                This frontend is written in react while the API request is fulfilled through a backend application written in Django.
             </h5>
             </div>
             <div className="tsugi">
-                <Link  to="/CrazyDriver">Wangan Midnight </Link> 
+          
+                <Link  to="/CrazyDriver">  Wangan Midnight </Link> 
             </div>
         </div>
     )
