@@ -255,9 +255,9 @@ Nav{
   margin-bottom: 0px;
   padding-bottom: 0px;
   font-size: 14px;
-  color: rgba(27, 27, 27, 0.932);
-  font-weight: 500;
-  font-family: 'Chivo', sans-serif;
+  color: rgba(255, 255, 255, 0.808);
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .go{
@@ -281,6 +281,7 @@ Nav{
 #mail{
   height:45px;
   margin-left:50px;
+  
 }
 
 #numba {
@@ -288,7 +289,29 @@ Nav{
 }
 
 .arrow{
-  height: 70px;
+  height: 150px;
+}
+
+#wrapper .text {
+  position:relative;
+  bottom:30px;
+  left:0px;
+  visibility:hidden;
+  }
+  
+  #wrapper:hover .text {
+  visibility:visible;
+  }
+
+.text {
+  color: white;
+  font-weight: 900;
+  background-color: rgba(95, 158, 160, 0.705);
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+ 
 }
 
 

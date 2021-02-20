@@ -7,7 +7,7 @@ function TabSensei () {
         <div className="lowerBody">
          <div id="kanjiParent">  
          <div className="tsugi">
-                <Link  to="/Famished">Famished</Link> 
+                <Link  to="/Famished"> <img className="arrow" src="https://www.behold3d.me/wp-content/uploads/2014/06/006765-3d-transparent-glass-icon-arrows-arrowhead2-left.png"/>Famished</Link> 
             </div> 
             <div className="video_box">
                 <div className="game_info">  
@@ -47,7 +47,7 @@ function TabSensei () {
                     </div>
             </div> 
             <div className="tsugi">
-                <Link  to="/Token">Token</Link> 
+                <Link  to="/Token"><img className="arrow" src="https://i.pinimg.com/originals/48/42/69/4842692663748510546c07917e2daaed.png" />Token</Link> 
             </div> 
             </div> 
         </div>

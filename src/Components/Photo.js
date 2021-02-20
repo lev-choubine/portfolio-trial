@@ -23,12 +23,14 @@ function Photo() {
             <li class="navLink" /*onClick={hideProjects}*/>
               <Link to="/Resume">RESUME</Link>
             </li>
-            {/* <li class="navLink" /*onClick={hideProjects}>
-              <Link to="/Kanji">MY INTERESTS</Link>
-            </li> */}
+           
             <a href="https://www.linkedin.com/in/lev-choubine/"><img className="gittohabbu" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/1200px-Linkedin_icon.svg.png"/>
-             <a href="mailto:lev.choubine@gmail.com"><img id="mail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/TK_email_icon.svg/480px-TK_email_icon.svg.png"/></a>
             </a>
+            <div id="wrapper">
+             <a href="mailto:lev.choubine@gmail.com"><img id="mail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/TK_email_icon.svg/480px-TK_email_icon.svg.png"/></a>
+             <p className="text"> click here to email me at lev.chouibne@gmail.com</p>
+            
+            </div>
           </div>
         </div>
           <h6 id="speil">Full stack developer based in New York City. <br/>Graduated from General Assembly's Software Engineering Immersive program.</h6>

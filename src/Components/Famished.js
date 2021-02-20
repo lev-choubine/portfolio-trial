@@ -7,7 +7,7 @@ function Famished () {
         <div className="lowerBody">
             <div id="kanjiParent">
                 <div className="tsugi">
-                    <Link  to="/CrazyDriver">Wangan Midnight</Link> 
+                    <Link  to="/CrazyDriver"> <img className="arrow" src="https://www.behold3d.me/wp-content/uploads/2014/06/006765-3d-transparent-glass-icon-arrows-arrowhead2-left.png"/>Wangan Midnight</Link> 
                 </div>
             <div className="video_box">
                 <div className="game_info">   
@@ -43,7 +43,7 @@ function Famished () {
                     </div>
                 </div>
                 <div className="tsugi">
-                    <Link  to="/TabSensei">TabSensei</Link> 
+                    <Link  to="/TabSensei"><img className="arrow" src="https://i.pinimg.com/originals/48/42/69/4842692663748510546c07917e2daaed.png" />TabSensei</Link> 
                 </div>
                 </div>
         </div>
