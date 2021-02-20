@@ -72,7 +72,10 @@ function Kanji() {
     return(
         <div id="kanjiParent">
             <div className="tsugi">
-                <Link  to="/Token"> <img className="arrow" src="https://www.behold3d.me/wp-content/uploads/2014/06/006765-3d-transparent-glass-icon-arrows-arrowhead2-left.png"/>Token </Link> 
+                <div id="wrapper2">
+                <Link  to="/Token"> <img className="arrow" src="https://www.behold3d.me/wp-content/uploads/2014/06/006765-3d-transparent-glass-icon-arrows-arrowhead2-left.png"/> </Link> 
+                <p className="text2">Token</p>
+                </div>
             </div>
             <div>
             <div id="kanjiApp">
@@ -136,8 +139,12 @@ function Kanji() {
             </h5>
             </div>
             <div className="tsugi">
-          
-                <Link  to="/CrazyDriver"> <img className="arrow" src="https://i.pinimg.com/originals/48/42/69/4842692663748510546c07917e2daaed.png" /> Wangan Midnight </Link> 
+                <div id="wrapper1">
+                <Link  to="/CrazyDriver"> <img className="arrow" src="https://i.pinimg.com/originals/48/42/69/4842692663748510546c07917e2daaed.png" />  </Link> 
+                <p className="text1">
+                Wangan Midnight
+                </p>
+                </div>
             </div>
         </div>
     )

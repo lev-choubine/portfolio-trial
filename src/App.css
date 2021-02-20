@@ -255,7 +255,7 @@ Nav{
   margin-bottom: 0px;
   padding-bottom: 0px;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.808);
+  color: rgba(255, 255, 255, 0.822);
   font-weight: 900;
   font-family: 'Montserrat', sans-serif;
 }
@@ -271,7 +271,7 @@ Nav{
 
 .tsugi{
   margin: 50px;
-  width: 150px;
+  width: 300px;
   font-size: 20px;
   text-align: center;
   /* border:solid 2px black; */
@@ -286,15 +286,20 @@ Nav{
 
 #numba {
   margin-left: 45px;
+  margin-top:0px;
+  font-weight: 900;
+  color: rgba(255, 228, 196, 0.815);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .arrow{
-  height: 150px;
+  height: 350px;
+
 }
 
 #wrapper .text {
   position:relative;
-  bottom:30px;
+  bottom:110px;
   left:0px;
   visibility:hidden;
   }
@@ -313,6 +318,54 @@ Nav{
   font-family: 'Montserrat', sans-serif;
  
 }
+
+.hooks{
+  color: rgba(255, 255, 255, 0.801);
+}
+
+#wrapper1 .text1 {
+  position:relative;
+  bottom:320px;
+  left:0px;
+  visibility:hidden;
+  }
+  
+  #wrapper1:hover .text1 {
+  visibility:visible;
+  }
+
+  .text1 {
+    color: white;
+    font-weight: 900;
+    background-color: rgba(95, 158, 160, 0.705);
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+   
+  }
+
+  #wrapper2 .text2 {
+    position:relative;
+    bottom:320px;
+    left:0px;
+    visibility:hidden;
+    }
+    
+    #wrapper2:hover .text2 {
+    visibility:visible;
+    }
+  
+    .text2 {
+      color: white;
+      font-weight: 900;
+      background-color: rgba(95, 158, 160, 0.705);
+      border-radius: 5px;
+      padding: 5px;
+      position: absolute;
+      font-family: 'Montserrat', sans-serif;
+     
+    }
 
 
 
