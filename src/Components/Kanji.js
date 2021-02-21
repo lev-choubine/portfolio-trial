@@ -49,7 +49,7 @@ function Kanji() {
         Axios.get(`https://kanji-cors-bypass.herokuapp.com/api/${kanjiLookUp}`).then(res=>{
         console.log(res.data)
         if(res.data.length===0){
-            setKanjiResult([{slug: "˃̣̣⌓˂̣̣̥", senses:[{english_definitions:["no results were found"]}]}])
+            setKanjiResult([{slug: "˃̣̣⌓˂̣̣̥", senses:[{english_definitions:["no results were found"]}], japanese:[{reading: ""}]}])
             return
         }
        
