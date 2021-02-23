@@ -367,6 +367,50 @@ Nav{
      
     }
 
+    #wrapper3 .text3 {
+      position:relative;
+      bottom:320px;
+      left:0px;
+      visibility:hidden;
+      }
+      
+      #wrapper3:hover .text3 {
+      visibility:visible;
+      }
+    
+      .text3 {
+        color: white;
+        font-weight: 900;
+        background-color: rgba(95, 158, 160, 0.705);
+        border-radius: 5px;
+        padding: 5px;
+        position: absolute;
+        font-family: 'Montserrat', sans-serif;
+       
+      }
+
+      #wrapper4 .text4 {
+        position:relative;
+        bottom:320px;
+        left:0px;
+        visibility:hidden;
+        }
+        
+        #wrapper4:hover .text4 {
+        visibility:visible;
+        }
+      
+        .text4 {
+          color: white;
+          font-weight: 900;
+          background-color: rgba(95, 158, 160, 0.705);
+          border-radius: 5px;
+          padding: 5px;
+          position: absolute;
+          font-family: 'Montserrat', sans-serif;
+         
+        }
+
 
 
 
