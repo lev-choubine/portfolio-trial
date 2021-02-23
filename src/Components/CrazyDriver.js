@@ -47,9 +47,10 @@ function CrazyDriver () {
             <div className="tsugi">
                 <div id="wrapper3">
                 <Link  to="/Famished" ><img className="arrow" src="https://i.pinimg.com/originals/48/42/69/4842692663748510546c07917e2daaed.png" /></Link> 
+                <p className="text3">Famished</p>
             </div>
             </div>
-            <p className="text1">Famished</p>
+            
             </div>
         </div>
     )
