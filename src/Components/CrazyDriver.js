@@ -23,7 +23,7 @@ function CrazyDriver () {
                         controls={true}
                         loop={true}
                         url="https://res.cloudinary.com/dok4pz3i3/video/upload/v1612331176/xainkofuximwxrq7toki.mp4"
-                        width="700px"
+                        width="100%"
                         height="auto"/>
                     </div>
                 </div>

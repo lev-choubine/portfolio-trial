@@ -23,7 +23,7 @@ function Famished () {
                         controls={true}
                         loop={true}
                         url="https://res.cloudinary.com/dok4pz3i3/video/upload/v1610911433/xzdvof4wywepqwgoex4u.mp4"
-                        width="700px"
+                        width="100%"
                         height="auto"/>
                     </div>
                 </div>

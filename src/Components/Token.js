@@ -23,7 +23,7 @@ function Token () {
                         controls={true}
                         loop={true}
                         url="https://res.cloudinary.com/dok4pz3i3/video/upload/v1612330016/yph9sdzwvieq1y8r9a1m.mp4"
-                        width="700px"
+                        width="100%"
                         height="auto"/>
                     </div>
                 </div>

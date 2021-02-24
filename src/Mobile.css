@@ -1,0 +1,51 @@
+@media (max-width: 1000px) {
+  #pic {
+      height: 50px;
+  }
+  .arrow{
+     width:50px;
+     height: auto;
+     margin:0px;
+  }
+  .video_box{
+    background-color: rgba(201, 204, 204, 0.582);
+    justify-content: space-around;
+    max-width:400px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0;
+    -webkit-margin-collapse: auto;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    border: solid 1px grey;
+ }
+ .videoBox{
+    position: relative;
+    width:300px;   
+    margin: auto;
+}
+
+.lingo{
+    max-width: 350px;
+}
+
+#lowerBody {
+    max-width: 950px;
+}
+
+ReactPlayer{
+    width: 300px;
+}
+#kanjiApp{
+    max-width:780px;
+  }
+.mobileLang{
+    display: none;
+}
+}
+
+
+
+

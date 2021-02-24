@@ -3,6 +3,7 @@ import './App.css';
 import './Project.css';
 import './Resume.css';
 import './Kanji.css';
+import './Mobile.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Photo from './Components/Photo';
 import Resume from './Components/Resume';

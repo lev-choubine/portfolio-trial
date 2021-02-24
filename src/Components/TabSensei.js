@@ -23,7 +23,7 @@ function TabSensei () {
                         controls={true}
                         loop={true}
                         url="https://res.cloudinary.com/dok4pz3i3/video/upload/v1610911373/bkzo3hrldtxf16oj8w8g.mp4"
-                        width="700px"
+                        width="100%"
                         eight="auto"/>
                     </div>
                 </div> 
