@@ -304,7 +304,7 @@ Nav{
   visibility:hidden;
   }
   
-  #wrapper:hover .text {
+#wrapper:hover .text {
   visibility:visible;
   }
 
@@ -328,13 +328,13 @@ Nav{
   bottom:320px;
   left:0px;
   visibility:hidden;
-  }
+}
   
-  #wrapper1:hover .text1 {
+#wrapper1:hover .text1 {
   visibility:visible;
   }
 
-  .text1 {
+.text1 {
     color: white;
     font-weight: 900;
     background-color: rgba(95, 158, 160, 0.705);
@@ -343,20 +343,20 @@ Nav{
     position: absolute;
     font-family: 'Montserrat', sans-serif;
    
-  }
+}
 
-  #wrapper2 .text2 {
+#wrapper2 .text2 {
     position:relative;
     bottom:320px;
     left:0px;
     visibility:hidden;
-    }
+}
     
-    #wrapper2:hover .text2 {
+#wrapper2:hover .text2 {
     visibility:visible;
-    }
+}
   
-    .text2 {
+.text2 {
       color: white;
       font-weight: 900;
       background-color: rgba(95, 158, 160, 0.705);
@@ -364,21 +364,20 @@ Nav{
       padding: 5px;
       position: absolute;
       font-family: 'Montserrat', sans-serif;
-     
-    }
+}
 
-    #wrapper3 .text3 {
+#wrapper3 .text3 {
       position:relative;
       bottom:320px;
       left:0px;
       visibility:hidden;
-      }
+}
       
-      #wrapper3:hover .text3 {
+#wrapper3:hover .text3 {
       visibility:visible;
-      }
+}
     
-      .text3 {
+.text3 {
         color: white;
         font-weight: 900;
         background-color: rgba(95, 158, 160, 0.705);
@@ -386,21 +385,20 @@ Nav{
         padding: 5px;
         position: absolute;
         font-family: 'Montserrat', sans-serif;
-       
-      }
+}
 
-      #wrapper4 .text4 {
+#wrapper4 .text4 {
         position:relative;
         bottom:320px;
         left:0px;
         visibility:hidden;
-        }
+}
         
-        #wrapper4:hover .text4 {
-        visibility:visible;
-        }
+#wrapper4:hover .text4 {
+      visibility:visible;
+}
       
-        .text4 {
+.text4 {
           color: white;
           font-weight: 900;
           background-color: rgba(95, 158, 160, 0.705);
@@ -409,7 +407,141 @@ Nav{
           position: absolute;
           font-family: 'Montserrat', sans-serif;
          
-        }
+}
+
+#wrapper5 .text5 {
+  position:relative;
+  bottom:320px;
+  left:0px;
+  visibility:hidden;
+}
+  
+#wrapper5:hover .text5 {
+visibility:visible;
+}
+
+.text5 {
+    color: white;
+    font-weight: 900;
+    background-color: rgba(95, 158, 160, 0.705);
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+#wrapper6 .text6 {
+  position:relative;
+  bottom:320px;
+  left:0px;
+  visibility:hidden;
+}
+  
+#wrapper6:hover .text6 {
+visibility:visible;
+}
+
+.text6 {
+    color: white;
+    font-weight: 900;
+    background-color: rgba(95, 158, 160, 0.705);
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+#wrapper7 .text7 {
+  position:relative;
+  bottom:320px;
+  left:0px;
+  visibility:hidden;
+}
+  
+#wrapper7:hover .text7 {
+visibility:visible;
+}
+
+.text7 {
+    color: white;
+    font-weight: 900;
+    background-color: rgba(95, 158, 160, 0.705);
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+#wrapper8 .text8 {
+  position:relative;
+  bottom:320px;
+  left:0px;
+  visibility:hidden;
+}
+  
+#wrapper8:hover .text8 {
+visibility:visible;
+}
+
+.text8 {
+    color: white;
+    font-weight: 900;
+    background-color: rgba(95, 158, 160, 0.705);
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+
+#wrapper9 .text9 {
+  position:relative;
+  bottom:320px;
+  left:0px;
+  visibility:hidden;
+}
+  
+#wrapper9:hover .text9 {
+visibility:visible;
+}
+
+.text9 {
+    color: white;
+    font-weight: 900;
+    background-color: rgba(95, 158, 160, 0.705);
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+
+#wrapper10 .text10 {
+  position:relative;
+  bottom:320px;
+  left:0px;
+  visibility:hidden;
+}
+  
+#wrapper10:hover .text10 {
+visibility:visible;
+}
+
+.text10 {
+    color: white;
+    font-weight: 900;
+    background-color: rgba(95, 158, 160, 0.705);
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+   
+}
 
 
 

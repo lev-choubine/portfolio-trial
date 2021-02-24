@@ -7,7 +7,10 @@ function TabSensei () {
         <div className="lowerBody">
          <div id="kanjiParent">  
          <div className="tsugi">
-                <Link  to="/Famished"> <img className="arrow" src="https://www.behold3d.me/wp-content/uploads/2014/06/006765-3d-transparent-glass-icon-arrows-arrowhead2-left.png"/>Famished</Link> 
+                <div id="wrapper7">
+                <Link  to="/Famished"> <img className="arrow" src="https://www.behold3d.me/wp-content/uploads/2014/06/006765-3d-transparent-glass-icon-arrows-arrowhead2-left.png"/></Link> 
+                <p className="text7">Famished</p>
+                </div>
             </div> 
             <div className="video_box">
                 <div className="game_info">  
@@ -47,7 +50,10 @@ function TabSensei () {
                     </div>
             </div> 
             <div className="tsugi">
-                <Link  to="/Token"><img className="arrow" src="https://i.pinimg.com/originals/48/42/69/4842692663748510546c07917e2daaed.png" />Token</Link> 
+                <div id="wrapper8">
+                <Link  to="/Token"><img className="arrow" src="https://i.pinimg.com/originals/48/42/69/4842692663748510546c07917e2daaed.png" /></Link> 
+                <p className="text8">Token</p>
+                </div>
             </div> 
             </div> 
         </div>
